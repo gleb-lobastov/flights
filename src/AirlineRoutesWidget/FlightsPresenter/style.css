@@ -1,0 +1,39 @@
+.airlineRoutesWidget-flights-card th {
+    font-weight: normal;
+}
+
+.airlineRoutesWidget-flights-card tr:nth-of-type(3) {
+    font-size: 13px;
+    color: #F7882F;
+}
+
+.airlineRoutesWidget-flights-card th:nth-of-type(1) {
+    text-align: right;
+}
+
+.airlineRoutesWidget-flights-card th:nth-of-type(2) {
+    text-align: center;
+}
+
+.airlineRoutesWidget-flights-card {
+    background-color: #6B7A8B;
+    border-radius: 5px;
+    color: white;
+    max-width: 1024px;
+    min-height: 80px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}
+
+.airlineRoutesWidget-flights-card-carrier {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 130px;
+    text-align: right;
+}
+
+.airlineRoutesWidget-flights-card-details {
+    display: inline-block;
+}
